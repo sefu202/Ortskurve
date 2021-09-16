@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ortskurve</name>
+    </assembly>
+    <members>
+        <member name="T:Ortskurve.Diagram">
+            <summary>
+            This Class can be used to draw a XY Plot
+            </summary>
+        </member>
+        <member name="M:Ortskurve.Diagram.Draw">
+            <summary>
+            Draws the Plot to the UI
+            </summary>
+        </member>
+        <member name="M:Ortskurve.Diagram.addDot(System.Double,System.Double)">
+            <summary>
+            Adds a Dot to the draw buffer, the dots are internally stored in a List
+            </summary>
+            <param name="x">X Position of the Dot</param>
+            <param name="y">Y Position of the Dot</param>
+        </member>
+        <member name="M:Ortskurve.Program.Main(System.String[])">
+            <summary>
+            This program plots locus diagrams. 
+            It was written by me to try C# and learn something about complex numbers
+            </summary>
+        </member>
+    </members>
+</doc>
